@@ -8,11 +8,13 @@ import org.junit.Before;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.util.AbstractCollection;
 import java.util.ArrayList;
 
 public class CustomListTest {
 
     private ArrayList<City> citylist = new ArrayList<>();
+    private AbstractCollection<City> cities;
 
     @Test
     public void testAddCity(){
