@@ -52,7 +52,7 @@ public class CustomListTest {
         assertEquals(0, list.getCount());
         list.addCity(new City("Edmonton", "AB"));
         list.addCity(new City("Toronto", "ON"));
-        assertEquals(0, list.countCities());
+        assertEquals(2, list.countCities());
     }
 
 
