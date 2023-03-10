@@ -43,7 +43,7 @@ public class CustomListTest {
         list.addCity(city);
         assertEquals(1, list.getCount());
         list.deleteCity(city);
-        assertEquals(1, list.getCount());
+        assertEquals(0, list.getCount());
 
     }
 
